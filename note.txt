@@ -107,6 +107,14 @@ TEST DATA: Marks weights 78 kg and is 1.69 m tall. John weights 92 kg and is 1.9
 
 GOOD LUCK 
 
+//quick challange 
+Who’s buying lunch ? 
+You’re going to write a function to select a random name from a list of names. The person selected would pay for everyone’s food bill. 
+Create a function that takes an array of names(strings) and returns a random name from the array. 
+Create an array from the list of strings given below to test your function
+Test data: ‘Michael’, ‘Onah’, ‘Anu’, ‘Divine’, ‘Samuel’ 
+Tip: Use Math.random() to generate a random number
+
 Exercise 4
 
 Let's improve Steven's tip calculator even more, this time using loops!
