@@ -281,6 +281,7 @@
 // const firstName = 'Onah'
 // const lastName = "Anu"
 
+/*
 const michael = {
   firstName: "Michael",
   lastName: "Olofin",
@@ -307,6 +308,7 @@ const michael = {
     );
   },
 };
+*/
 
 // michael.calcAge()
 
@@ -387,3 +389,19 @@ const michael = {
 //   if (typeof michaelArray[i] === "number") break;
 //   console.log(michaelArray[i], typeof michaelArray[i]);
 // }
+
+//WHILE LOOPS
+// let i = 0
+// while(i < 4){
+//   console.log(`hello ${i}`)
+//   i++
+// }
+
+// let dice = Math.trunc(Math.random() * 6) + 1
+// // console.log(dice)
+// while(dice !== 6){
+//   console.log("you rolled a", dice)
+//   dice = Math.trunc(Math.random() * 6) + 1;
+//   if(dice === 6) console.log('you finally got a ' + dice)
+// }
+

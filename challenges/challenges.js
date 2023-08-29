@@ -137,3 +137,35 @@
 // };
 // const jsDevs = ["Michael", "Anu", "Onah", "Divine"];
 // console.log(returnRandomName(jsDevs));
+
+//Part 2 Exercise 4
+const bills = [22, 295, 176, 440, 37, 105, 10, 1100, 86, 52];
+const tips = [];
+const totals = [];
+
+//if else
+// const calcTip = (bill) => {
+//   if (bill < 50 || bill > 300) {
+//     return bill * 0.2;
+//   } else {
+//     return bill * 0.15;
+//   }
+// };
+
+//tenary operator
+// const calcTip = (bill) => {
+//   return bill < 50 || bill > 300 ? bill * 0.2 : bill * 0.15;
+// };
+
+//implicit return
+// const calcTip = (bill) => (bill < 50 || bill > 300 ? bill * 0.2 : bill * 0.15);
+
+// for (let i = 0; i < bills.length; i++) {
+//   const tip = calcTip(bills[i]);
+//   tips.push(tip);
+//   const total = bills[i] + tip;
+//   totals.push(total);
+// }
+// console.log(bills);
+// console.log(tips);
+// console.log(totals);

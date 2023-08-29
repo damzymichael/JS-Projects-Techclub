@@ -133,3 +133,8 @@ HINT: Call calcTip in the loop and use the push method to add values to the tips
   4.3. Call the function with the 'totals' array
 
 GOOD LUCK 
+
+//New Quick Challenge
+https://99-bottles-of-beer.net/lyrics.html
+Print the lyrics of this song to the console using for loop
+hint: loop backwards
