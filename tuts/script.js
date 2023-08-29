@@ -46,7 +46,6 @@
 //   console.log("Wow");
 // }
 
-
 //switch statements
 // let day;
 // const mike;
@@ -404,4 +403,8 @@ const michael = {
 //   dice = Math.trunc(Math.random() * 6) + 1;
 //   if(dice === 6) console.log('you finally got a ' + dice)
 // }
+
+// console.log('hi');
+// const calctip = bill => bill * 0.5;
+
 
