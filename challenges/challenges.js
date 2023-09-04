@@ -169,3 +169,30 @@ const totals = [];
 // console.log(bills);
 // console.log(tips);
 // console.log(totals);
+
+//99 bottles challenge
+
+`99 bottles of beer on the wall, 99 bottles of beer 
+Take one down and pass it around, 98 bottles of beer on the wall.`;
+
+let output = document.querySelector(".lyrics");
+// console.log(output);
+for (let i = 99; i >= 1; i--) {
+  const bottle = i === 1 ? "bottle" : "bottles";
+
+  const text = `<p>${i} ${bottle} of beer on the wall, ${i} ${bottle} of beer 
+  Take one down and pass it around, ${
+    i - 1 === 0 ? "no more" : i - 1
+  } bottles of beer on the wall.</p>`;
+  // const text = `${i} ${bottle} of beer on the wall, ${i} ${bottle} of beer
+  // Take one down and pass it around, ${
+  //   i - 1 === 0 ? "no more" : i - 1
+  // } bottles of beer on the wall.<br/>`;
+
+  // console.log(text)
+
+  output.innerHTML += text
+  // output.innerHTML = output.innerHTML + text;
+}
+
+//Add the last line of the lyrics to the DOM 

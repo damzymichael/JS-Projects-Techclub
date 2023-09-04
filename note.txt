@@ -138,3 +138,5 @@ GOOD LUCK
 https://99-bottles-of-beer.net/lyrics.html
 Print the lyrics of this song to the console using for loop
 hint: loop backwards
+
+//challenge(lyrics) b: Print the last line of the lyrics
