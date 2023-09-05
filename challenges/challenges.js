@@ -200,4 +200,16 @@ for (let i = 99; i >= 1; i--) {
   if (i === 1) output.innerHTML += lastLine;
   // output.innerHTML = output.innerHTML + text;
 }
-
+const numbers = [1, 2, 3];
+// const numbers = []
+const calcAverage = (array) => {
+  let sum = 0;
+  for (let i = 0; i < array.length; i++) {
+    // sum = sum + array[i];
+    sum += array[i];
+  }
+  const average = sum / array.length
+  // return {total: sum, avg: average}
+  return sum / array.length
+};
+console.log(calcAverage(numbers))
