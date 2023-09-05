@@ -190,9 +190,14 @@ for (let i = 99; i >= 1; i--) {
   // } bottles of beer on the wall.<br/>`;
 
   // console.log(text)
+  output.innerHTML += text;
 
-  output.innerHTML += text
+  //Add the last line of the lyrics to the DOM
+
+  const lastLine = `<p>No more bottles of beer on the wall, no more bottles of beer.
+    Go to the store and buy some more, 99 bottles of beer on the wall.</p>`;
+
+  if (i === 1) output.innerHTML += lastLine;
   // output.innerHTML = output.innerHTML + text;
 }
 
-//Add the last line of the lyrics to the DOM 
